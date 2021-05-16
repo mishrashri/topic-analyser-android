@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_image"
+    tools:context=".unitFour.CustomViewActivity">
+
+    <com.ks.one225.unitFour.MyViews
+        android:layout_width="match_parent"
+        android:text="@string/appwidget_text"
+        android:layout_height="300dp"/>
+
+    <com.ks.one225.unitFour.KishanText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:KishanSetColor="@color/black"
+        app:KishanAddText="@string/app_name"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+
+</LinearLayout>

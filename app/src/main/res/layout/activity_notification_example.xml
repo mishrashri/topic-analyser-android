@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ks.one225.unitTwo.notification.NotificationExampleActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/btn">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/bg2"
+        android:foreground="?attr/selectableItemBackground"
+        android:onClick="showNotification"
+        android:text="@string/show_notification" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv"
+        android:src="@drawable/logo_light"
+        android:contentDescription="@string/show_notification" />
+
+
+</LinearLayout>

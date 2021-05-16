@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ks.one225.unitThree.fragments.FragmentExample"
+    android:id="@+id/frag1BG"
+    android:background="@drawable/bg_image"
+    android:orientation="vertical">
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragments are Here"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/btn"/>-->
+
+
+    <fragment
+        android:layout_margin="10dp"
+        android:tag="fragg1"
+        android:id="@+id/fragment1"
+
+        android:name="com.ks.one225.unitThree.fragments.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <fragment
+        android:layout_weight="2"
+        android:tag="fragg2"
+        android:layout_margin="10dp"
+        android:id="@+id/fragment2"
+        android:name="com.ks.one225.unitThree.fragments.Fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/mainBtn"/>
+</LinearLayout>

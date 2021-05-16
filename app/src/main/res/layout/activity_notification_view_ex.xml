@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ks.one225.unitTwo.notification.NotificationViewEx"
+    android:background="@drawable/bg_image"
+    android:gravity="center">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topic Analyzer is Ready with Notifications"
+        android:textColor="#00695C"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/tv"/>
+</LinearLayout>

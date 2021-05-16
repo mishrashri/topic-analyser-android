@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ks.one225">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appCategory="productivity"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".unitFive.InternalStorageEx" />
+        <activity android:name=".unitSix.ViewPagerExActivity" />
+        <activity
+            android:name=".unitSix.NavigationExActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".unitSix.UnitSixActivity" />
+        <activity android:name=".unitFive.UnitFiveActivity" />
+        <activity
+            android:name=".unitFive.SharedPreferencesEx"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".unitFour.UnitFourActivity" />
+        <activity android:name=".unitThree.UnitThreeActivity" />
+        <activity android:name=".unitTwo.UnitTwoActivity" />
+        <activity android:name=".unitOne.UnitOneActivity" />
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".MyAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_app_widget_info" />
+        </receiver>
+
+        <activity android:name=".MyAppWidgetConfigureActivity">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".unitOne.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Unit ONE -->
+        <activity android:name=".unitOne.ScrollViewActivity" />
+        <activity android:name=".unitOne.RatingActivity" />
+        <activity android:name=".unitOne.HorizontalScrollViewActivity" />
+        <activity android:name=".unitOne.ToolBarActivity" />
+        <activity android:name=".unitOne.ProgressBarActivity" /> <!-- Unit TWO -->
+        <activity android:name=".unitTwo.alarm.AlarmManagerExample" />
+
+        <receiver android:name=".unitTwo.alarm.AlarmManagerBroadcast" />
+
+        <activity android:name=".unitTwo.notification.NotificationExampleActivity" />
+        <activity android:name=".unitTwo.notification.NotificationViewEx" /> <!-- Unit THREE -->
+        <activity android:name=".unitThree.fragments.FragmentExample" />
+        <activity android:name=".unitThree.DatePickerActivity" />
+        <activity android:name=".unitThree.TimePickerActivity" /> <!-- Unit FOUR -->
+        <activity android:name=".unitFour.CustomViewActivity" />
+    </application>
+
+</manifest>

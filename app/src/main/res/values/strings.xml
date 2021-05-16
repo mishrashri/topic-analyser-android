@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Topic Analyzer</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="submit">SUBMIT</string>
+    <string name="scroll_view">Scroll View</string>
+    <string name="tech">Narayan Mishra</string>
+    <string name="unit1">Unit 1</string>
+    <string name="unit2">Unit 2</string>
+    <string name="unit3">Unit 3</string>
+    <string name="unit4">Unit 4</string>
+    <string name="unit5">Unit 5</string>
+    <string name="unit6">Unit 6</string>
+
+    <string name="website">www.topicanalyzer.in</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="vertical_scroll_view">Vertical Scroll View</string>
+    <string name="horizontal_scroll_view">Horizontal Scroll View</string>
+    <string name="tool_bar">Tool Bar</string>
+    <string name="rating_bar">Rating Bar</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="progress_bar">Progress Bar</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="intent">Intent</string>
+    <string name="pending_intent">Pending Intent</string>
+    <string name="job_scheduler">Job Scheduler</string>
+    <string name="alarm_manager">Alarm Manager</string>
+    <string name="notification">Notification</string>
+    <string name="fragments">Fragments</string>
+    <string name="date_picker">Date Picker</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="custom_view">Custom View</string>
+    <string name="nothing">Nothing</string>
+    <string name="big_notification">Big Notification</string>
+    <string name="small_notification">Small Notification</string>
+    <string name="shared_preferences_ex">Shared Preferences Example</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="external_storage">External Storage</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_mobile_no">Your Mobile No.</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_name">Your Name</string>
+    <string name="save">Save</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="select_background_color">Select Background Color :</string>
+    <string name="orange">Orange</string>
+    <string name="swipe_views_with_tabs">Swipe Views with Tabs</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="view_pager">View Pager</string>
+
+    <string-array name="list_items">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>YELLOW</item>
+        <item>PURPLE</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="add_text">Add Text</string>
+    <string name="write">Write</string>
+    <string name="read">Read</string>
+</resources>

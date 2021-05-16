@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/splash">
+    <TextView
+        android:id="@+id/sst"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00695C"
+        android:textSize="30sp"
+        android:text="Welcome"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_light"
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/imgs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Narayan Mishra's app"
+        android:id="@+id/texts"
+        android:layout_below="@id/imgs"
+        android:textColor="#000"/>
+
+    <ProgressBar
+        android:id="@+id/prog_splash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="118dp"
+        android:padding="16dp" />
+</RelativeLayout>
